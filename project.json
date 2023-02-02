@@ -1,7 +1,7 @@
 {
   "name": "DocumentUnderstandingBOT ALFAGOMMA",
   "description": "Document Understanding Process",
-  "main": "Main-ActionCenter.xaml",
+  "main": "Main.xaml",
   "dependencies": {
     "UiPath.Azure.Activities": "[1.3.1]",
     "UiPath.AzureActiveDirectory.Activities": "[1.2.2]",
@@ -65,8 +65,8 @@
       "output": []
     },
     {
-      "filePath": "Main-ActionCenter.xaml",
-      "uniqueId": "4d0bee24-2f69-414e-b28a-c2b9c7679cc1",
+      "filePath": "Main.xaml",
+      "uniqueId": "de4540c2-a98f-4ef6-b985-d241aaf01468",
       "input": [],
       "output": []
     }
