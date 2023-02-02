@@ -24,7 +24,7 @@ steps:
     orchestratorConnection: 'Uipath_Testing'
     packagesPath: '$(Build.ArtifactStagingDirectory)\Output'
     folderName: 'Modren Example'
-    entryPoints: 'Main-ActionCenter.xaml'
+    entryPoints: 'Main.xaml'
 - script: |
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
