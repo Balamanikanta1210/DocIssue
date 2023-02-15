@@ -15,14 +15,14 @@ steps:
 - task: UiPathInstallPlatform@3
   inputs:
     cliVersion: 'WIN_22.10.8418.30339'
-- task: UiPathPack@2
+- task: UiPathPack@3
   inputs:
     versionType: 'AutoVersion'
     projectJsonPath: '$(Build.SourcesDirectory)'
     outputType: 'Process'
     orchestratorConnection: 'Uipath_Testing'
     outputPath: '$(Build.ArtifactStagingDirectory)\Output'
-- task: UiPathDeploy@2
+- task: UiPathDeploy@3
   inputs:
     orchestratorConnection: 'Uipath_Testing'
     packagesPath: '$(Build.ArtifactStagingDirectory)\Output'
