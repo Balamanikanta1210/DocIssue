@@ -12,6 +12,9 @@ pool:
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
+- task: UiPathInstallPlatform@3
+  inputs:
+    cliVersion: 'WIN_22.10.8418.30339'
 - task: UiPathPack@2
   inputs:
     versionType: 'AutoVersion'
